@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    background: #EEEFF1;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+    padding-bottom: 161px;
+}
+
+.header__nav {
+    align-self: center;
+}
+
+.nav__item {
+    margin-right: 57px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__nav :last-child {
+    margin-right: 0;
+}
+
+.promo {
+    background: #EEEFF1;
+}
+
+.promo__container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.promo__content {
+    max-width: 530px;
+}
+
+.promo__picture {
+    width: 300px;
+    height: 234px;
+    background: url(../img/laptop.png) center no-repeat;
+    background-size: 100%;
+}
+
+
+.promo__title {
+    margin: 0 0 40px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.promo__text {
+    margin: 0 0 40px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #727272;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #34547A;
+    cursor: pointer;
+}
+
+.promo__button {
+    font-size: 16px;
+    padding: 20px 35px;
+    margin-bottom: 140px;
+}
+
+.about-owner__conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.about-owner__subtitle {
+    margin: 110px 0 40px 0;
+}
+
+.about-owner__text {
+    margin: 0 0 100px 0;
+    max-width: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.portfolio {
+    background-color: #34547A;
+}
+
+.portfolio__container {
+    padding: 80px 0;
+}
+
+.portfolio__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio__item {
+    display: flex;
+}
+
+.portfolio__picture {
+    margin-right: 20px;
+}
+
+.portfolio__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio__sum {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.portfolio__designation{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.owner-skills__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.owner-skills__descr {
+    display: flex;
+}
+
+.owner-skills__descr-wrapper {
+    align-self: center;
+}
+
+.owner-skills__subtitle {
+    margin: 0 0 50px 0;
+}
+
+.owner-skills__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.owner-skills__text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.owner-skills__line {
+    margin: 19px 0 29px 0;
+    width: 400px;
+    height: 4px;
+    background: linear-gradient(to right, #34547A 75%, #727272 25%);
+}
+
+.owner-skills__portret {
+    width: 450px;
+    height: 450px;
+    background: url(../img/owner-portret.png) center no-repeat;
+    background-size: cover;
+}
